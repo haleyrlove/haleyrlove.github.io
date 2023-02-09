@@ -5,7 +5,7 @@ window.onscroll = function () {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById('nav').style.top = '0'
     document.getElementById('logo').style.width = '400%'
-    document.getElementById('logo').style.marginLeft = '-100%'
+    document.getElementById('logo').style.marginLeft = '-150%'
   } else {
     document.getElementById('nav').style.top = '-20px'
     document.getElementById('logo').style.width = '200%'

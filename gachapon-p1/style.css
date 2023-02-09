@@ -31,13 +31,14 @@ nav {
   font-family: Ikigai, cursive;
   font-size: xx-large;
   z-index: 100;
+  transition: top 0.7s;
 }
 
 /* ---- */
 nav ul img {
   width: 400%;
   margin: 0;
-  margin-left: -100%;
+  margin-left: -10%;
   padding: 0;
 }
 nav ul a {
@@ -59,7 +60,7 @@ nav ul {
 /* ---- */
 
 a {
-  padding: 20px;
+  padding: 10px;
   width: 100px;
   display: block;
   text-decoration: none;
