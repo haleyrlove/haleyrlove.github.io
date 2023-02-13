@@ -73,7 +73,7 @@ a {
 
 #section1 {
   margin-top: 370px;
-  height: 1000px;
+  height: 700px;
   background: #ffb5dd;
   display: inline-block;
   width: 100%;
@@ -95,7 +95,7 @@ a {
 }
 
 #section4 {
-  height: 700px;
+  height: 1000px;
   background: #ffb5dd;
   display: inline-block;
   width: 100%;
@@ -256,17 +256,22 @@ img.excited-img:hover {
 
 .my-slick {
   width: 80%;
-  margin: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .dog-slide img {
-  width: 100%;
+  width: 350px;
+  height: 350px;
   border: 4px solid black;
 }
 .dog-slide {
+  font-family: Ikigai;
+  font-size: xx-large;
   margin: 0 0;
 }
 .dog-slide p {
-  text-align: center;
+  text-align:center;
 }
 
 .slick-slide {
@@ -274,3 +279,21 @@ img.excited-img:hover {
   width: 220px;
 }
 /* slideshow end here */
+
+.black-stripe{
+  height: 400px;
+  background-color: black;
+  display: inline-block;
+  width: 100%;
+  color:#fef3ef;
+  text-align: center;
+  font-family: Mont;
+  font-size: x-large;
+}
+
+.green-stripe{
+  background: #67c785;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
