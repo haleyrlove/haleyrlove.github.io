@@ -21,8 +21,9 @@
         </ul>
     </nav>
     <div id="section1">
-        <article>
+        <article id="machine-star">
         <img class="star" src="images/star.png"/>
+        <img id="machine" src="http://placekitten.com/400/400">
         </article>
     </div>
 
@@ -142,6 +143,12 @@
   <script>
     // start of slideshow
 $(function () {
+  $('#machine').mouseenter(function(){
+    $('.star').toggleClass('star-anim')
+  })
+  $('#machine').mouseleave(function(){
+    $('.star').toggleClass('star-anim')
+  })
   $('.my-slick').slick({
     dots: true,
     infinite: true,

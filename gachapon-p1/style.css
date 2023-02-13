@@ -79,6 +79,7 @@ a {
   width: 100%;
 }
 
+
 #section2 {
   height: 700px;
   background: #67c785;
@@ -179,14 +180,26 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  position:relative;
 }
 .star {
   width: 40%;
 }
-
-.star:hover {
-  animation: rotation 6s infinite linear;
+.star-anim {
+   animation: rotation 6s infinite linear;
 }
+/* #machine:hover .star {
+    animation: rotation 6s infinite linear;
+} */
+#machine{
+  position:absolute;
+  top:60px;
+  left:35%;
+  right:0;
+}
+/* .star:hover {
+  animation: rotation 6s infinite linear;
+} */
 
 @keyframes rotation {
   from {
