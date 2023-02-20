@@ -295,13 +295,6 @@ img.excited-img:hover {
   font-size: x-large;
 }
 
-.black-stripe img{
-  position:absolute;
-  top:2500px;
-  left:28%;
-  right:0;
-  height: 90%;
-}
 
 .green-stripe{
   background: #67c785;
