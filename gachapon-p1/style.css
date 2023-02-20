@@ -183,7 +183,7 @@ h1 {
   position:relative;
 }
 .star {
-  width: 40%;
+  width: 50%;
 }
 .star-anim {
    animation: rotation 6s infinite linear;
@@ -193,9 +193,13 @@ h1 {
 } */
 #machine{
   position:absolute;
-  top:60px;
-  left:35%;
+  top:10px;
+  left:28%;
   right:0;
+  height: 90%;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 15px 0px rgb(0, 0, 0));
 }
 /* .star:hover {
   animation: rotation 6s infinite linear;
@@ -289,6 +293,14 @@ img.excited-img:hover {
   text-align: center;
   font-family: Mont;
   font-size: x-large;
+}
+
+.black-stripe img{
+  position:absolute;
+  top:2500px;
+  left:28%;
+  right:0;
+  height: 90%;
 }
 
 .green-stripe{
