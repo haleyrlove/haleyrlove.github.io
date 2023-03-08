@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,600;0,700;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.call-us{
+	color:#002308;
+	display:flex;
+	align-items: center;
+}
+
+
+body{
+	background-color: #F1EAD0;
+}
+
+p{
+	font-family: Roboto;
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #002308;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #002308;
+	font-family: 'Chivo';
+	font-size: 38px;
+	word-spacing: 5px;
+}
+
+.main_container{
+	position: relative;
+}
+
+.call-us{
+	align-items:center;
+}
+
+/* Navigation bar */
+.navbar{
+	background-color: #3C8E37;
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+
+.logo a{
+	font-family: 'Chivo';
+	font-size: 32px;
+	color: #fff;
+}
+
+.navbar .navbar_items ul{
+	display: flex;
+}
+
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+
+.navbar .navbar_items ul li a{
+	color: #fff;
+}
+
+
+/* Banner Image */
+.banner_image{
+	background: url("https://images.unsplash.com/photo-1599660869952-3852916ff82b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80") no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align:right;
+	color: #fff;
+	text-shadow: 2px 4px 4px rgba(0, 75, 32, 0.6);
+}
+
+.banner_content h1{
+	font-family: Chivo;
+	font-size: 80px;
+	margin-top: 33%;
+	margin-left: 20%;
+	margin-right: 2%;
+}
+
+/* Customer Reviews */
+.reviews{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+/* Location, Hours, Contact */
+
+.footer-info{
+	background: #3C8E37;
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.footer-info-item{
+	width: 30%;
+}
+
+.footer-info-item h1{
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #2D5427;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+@media (max-width: 720px){
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.navbar ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar ul li{
+		margin-bottom: 5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+}
+
+/* arrow */
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #3C8E37;
+	border-radius: 50%;
+}
+
+.arrow img{
+	width: 20px;
+	height: 15px;
+	z-index: 1;
+	margin-bottom: 3px;
+}
+
