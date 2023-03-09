@@ -6,26 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Growers Outlet</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div class="call-us">
+  <div id="home" class="call-us">
     <p>Call us today! 503-256-3629 </p>
   </div>
 
-  <div class="main_container" id="home">
-    <div class="navbar">
-      <div class="logo">
-        <a href="#">Growers Outlet</a>
-      </div>
-      <div class="navbar_items">
-        <ul>
-          <li><a href="#about">about</a></li>
-          <li><a href="#fruitbaskets">fruit baskets</a></li>
-          <li><a href="#seasonal">seasonal</a></li>
-        </ul>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+<div class="nav-title">
+      <a href="index.html"> Growers Outlet</a>
       </div>
     </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="about.html" target="_blank">About</a>
+      <a href="fruitbaskets.html" target="_blank">Fruit Baskets</a>
+      <a href="seasonal.html" target="_blank">Seasonal</a>
+    </div>
+  </div>
   
     <div class="banner_image">
       <div class="banner_content">
@@ -33,10 +42,43 @@
       </div>
     </div>
   
-    <div class="reviews" id="reviews">
-      <h1 class="title"> Customer Reviews</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ipsam labore quos quam, tempora recusandae nemo laudantium, ad vitae vel repellendus dolores placeat. Velit distinctio natus, facilis quia! Voluptas nam, animi quidem doloremque mollitia accusamus voluptatum quos totam consequatur. Temporibus rerum recusandae nobis vel architecto beatae esse facilis repellat. Et repellat similique ad ab harum doloribus dolorum. Iste suscipit blanditiis vero qui aliquid omnis quasi, delectus vel adipisci et ratione maiores soluta facilis earum voluptate.</p>
-    </div>
+
+    <section class="testimonial text-center">
+      <div class="container">
+
+          <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+           
+              <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                      <div class="testimonial4_slide">
+                          <img src="images/review-1.png" class="img-circle img-responsive" />
+                          <p>"A nice selection of seasonal products, pasta, seasonings, honey and more.” </p>
+                          <h4>Stevan Cohen</h4>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="testimonial4_slide">
+                          <img src="images/review-2.png" class="img-circle img-responsive" /><p>“Friendly staff, nice selection and great prices on produce.” </p>
+                          <h4>Bella Shultz</h4>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="testimonial4_slide">
+                          <img src="images/review-3.png" class="img-circle img-responsive" />
+                          <p>“The staff are so helpful, knowledgeable and kind. I just LOVE this place.” </p>
+                          <h4>Heather Bruer</h4>
+                      </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+              </a>
+          </div>
+      </div>
+  </section>
   
       <div class="footer-info">
         <div class="footer-info-item">
@@ -48,20 +90,27 @@
         <div class="footer-info-item">
           <h1>Hours</h1>
           <p>Monday – Friday: 7:30 AM - 6:30 PM
+            <br>
             Saturdays: 7:30 AM – 6:00 PM
+            <br>
             Closed on Sundays
             </p>
         </div>
         <div class="footer-info-item">
           <h1>Contact</h1>
           <p>Phone: 503-256-3629
+            <br>
             Fax: 503-252-8401
             </p>
         </div>
       </div>  
   
-    <div class="footer">
-      <a href="#">Copyright © Growers Outlet Portland | All Rights Reserved | Designed by Haley Love</a>
+    <div class="bottomfooter">
+      <a href="https://www.haleyrlove.com">Copyright © Growers Outlet Portland | All Rights Reserved | Designed by Haley Love</a>
+    
+      <a href="https://www.facebook.com/people/Growers-Outlet/100057175161581/"><img class=facebook src="images/facebook-logo.png" alt="facebook-logo"></a>
+      <a href="https://www.instagram.com/growersoutletpdx/?hl=en"><img class=instagram src="images/instagram-logo.png" alt="instagram-logo"></a>
+      <a href="https://www.yelp.com/biz/growers-outlet-portland"><img class=yelp src="images/yelp-logo.png" alt="yelp-logo"></a>
     </div>
   
     <div class="arrow">
@@ -72,6 +121,7 @@
 
 
 </script>
-<script type="text/javascript" src="myscript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
