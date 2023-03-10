@@ -77,8 +77,10 @@ h1.title{
   padding-left: 15px;
   padding-top: 5px;
 }
+
 .nav-title a{
   text-decoration: none;
+  color: #fff;
 }
 
 .nav > .nav-btn {
@@ -478,4 +480,253 @@ h1.title{
 .instagram{
   padding:5px;
   width:3%;
+}
+
+/* Media - Video Section CSS
+
+Tags included:
+
+1. #main-media-container - main container where all the elements in the section architecto
+
+2. #media-title-description - id of the container with the title and description
+
+3. #media-separator - separator between title and description
+
+4. #media-title-description p - styling applied only to the main description
+
+5. #media-video-text-container - general container keeping the title, description and video
+
+6. #media-text - id of the container with the title and description at the left of the Video
+
+7. #media-text h2 - styling of the h2 within the media-text container
+
+8. #media-text p - styling of the p within the media-text container
+
+9. #text-video-separator - separator between the text and the Video
+
+10. #media-button - the button bellow the text at the left of the video
+
+11. #media-button:hover - styling of the hover state of the button
+
+12. media-video -container with the video
+
+13. iframe-video - the iframe tag containing the YouTube video
+
+*/
+
+#main-media-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#media-title-description {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  width: 90%;
+}
+
+#media-title-description h1 {
+  font-size: 45px;
+}
+
+#media-title-description p {
+  margin-top: 1%;
+}
+
+#media-video-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  padding: 3% 2% 3% 2%;
+  /* background-color: #f5f5f5; */
+  border-radius: 10px;
+}
+
+#media-text {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  width: 40%;
+  height: auto;
+}
+
+#media-text h2 {
+  font-size: 30px;
+  color:#2D5427;
+}
+
+#media-text p {
+  font-size: 17px;
+  margin-top: 3%;
+}
+
+#text-video-sperator {
+  height: 20vh;
+  border: solid 0.5px #2D5427;
+}
+
+#media-farmers{
+  display: flex;
+  flex-flow: column;
+  height: auto;
+}
+
+#media-farmers img{
+width: 500px;
+border: 5px solid #2D5427;
+}
+
+
+
+
+
+
+
+
+
+#service-features {
+  display: flex;
+  flex-direction: row;
+  /* Change flow-direction to "column" in the responsive design for the features to stack
+  one on top of another. */
+  justify-content: space-around;
+  margin-top: 2%;
+  padding-bottom: 8%;
+}
+
+#features-description {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  padding: 1%;
+  display: flex;
+  width: 60%;
+}
+
+#features-description h1 {
+  font-size: 45px;
+  font-family: Chivo;
+  color:#2D5427;
+}
+
+#features-description p {
+  font-weight: 400;
+  font-size: 15pt;
+}
+
+#feature {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px #2D5427;
+}
+
+#feature img {
+  max-width: 30%;
+  max-height: 30%;
+  padding-top: 5%;
+}
+
+#feature-title {
+  margin-top: 5%;
+}
+
+#feature p {
+  width: 70%;
+  margin-top: 5%;
+}
+
+#feature-button {
+  border: none;
+  margin-top: 30%;
+  width: 12vh;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: #3C8E37;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20%;
+}
+
+#feature-button:hover {
+  background-color: #8AA56E;
+  cursor: pointer;
+}
+
+.pumpkin{
+  width:25%;
+  margin-bottom: 3px;
+  margin-top: 10 px;
+}
+
+.flower{
+  width:25%;
+}
+
+/* ------lets get this shit------*/
+
+
+.diff_baskets{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-around;
+  margin-left: 10%;
+}
+
+.diff_basket_item{
+	width: 30%;
+  align-items: center;
+}
+
+.diff_basket_item img{
+  object-fit: cover;
+  width: 330px;
+  height: 330px;
+  outline: 5px solid #2D5427;
+}
+
+.diff_basket_item h3{
+	color: #002308;
+	margin-bottom: 15px;
+  margin-top: 20px;
+  font-family: Chivo;
+}
+
+.fruity-title{
+  font-family: Chivo;
+  font-size: 40px;
+  margin-top: 1%;
+  color:#002308;
+  margin-left:1%;
+}
+.baskets p{
+  margin-left:1%;
+  font-size: 20px;
+  width: 50%;
+  
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.watermelon{
+  object-fit: cover;
+  width: 430px;
+  height: 430px;
+  outline: 5px solid #2D5427;
 }
