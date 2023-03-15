@@ -30,9 +30,9 @@
     </div>
     
     <div class="nav-links">
-      <a href="about.html" target="_blank">About</a>
-      <a href="fruitbaskets.html" target="_blank">Fruit Baskets</a>
-      <a href="seasonal.html" target="_blank">Seasonal</a>
+      <a href="about.html">About</a>
+      <a href="fruitbaskets.html">Fruit Baskets</a>
+      <a href="seasonal.html">Seasonal</a>
     </div>
   </div>
   
@@ -112,12 +112,26 @@
       <a href="https://www.instagram.com/growersoutletpdx/?hl=en"><img class=instagram src="images/instagram-logo.png" alt="instagram-logo"></a>
       <a href="https://www.yelp.com/biz/growers-outlet-portland"><img class=yelp src="images/yelp-logo.png" alt="yelp-logo"></a>
     </div>
-  
-    <div class="arrow">
-      <a href="#home"><img src="images/up-arrow.png" alt="up-arrow"></a>
-    </div>
-  </div>
+    <a id="button"></a>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  
+  </script>
 
 
 </script>

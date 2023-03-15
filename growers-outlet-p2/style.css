@@ -551,6 +551,7 @@ Tags included:
 }
 
 #media-text {
+  margin-top: 17%;
   display: flex;
   flex-flow: column;
   align-items: flex-start;
@@ -584,7 +585,11 @@ width: 500px;
 border: 5px solid #2D5427;
 }
 
-
+#media-pumpkin{
+  display: flex;
+  flex-flow: column;
+  height: auto;
+}
 
 
 
@@ -729,4 +734,60 @@ hr.solid {
   width: 430px;
   height: 430px;
   outline: 5px solid #2D5427;
+}
+
+.pumpkinpatch{
+  object-fit: cover;
+  width: 430px;
+  height: 430px;
+  outline: 5px solid #2D5427;
+}
+
+.trees{
+  object-fit: cover;
+  width: 430px;
+  height: 430px;
+  outline: 5px solid #2D5427;
+}
+
+
+
+
+
+
+#button {
+  display: inline-block;
+  background-color: #8AA56E;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "top";
+  font-family: Chivo;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #3C8E37;
+}
+#button:active {
+  background-color: #9dd3af;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
