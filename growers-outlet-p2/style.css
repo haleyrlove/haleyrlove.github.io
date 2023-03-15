@@ -156,7 +156,7 @@ h1.title{
 }
 
 
-/* Banner Image */
+/* Home Page Banner Image */
 .banner_image{
 	background: url("https://images.unsplash.com/photo-1599660869952-3852916ff82b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80") no-repeat top center;
 	background-size: cover;
@@ -179,12 +179,6 @@ h1.title{
 	margin-top: 33%;
 	margin-left: 20%;
 	margin-right: 2%;
-}
-
-/* Customer Reviews */
-.reviews{
-	padding: 5% 10%;
-	text-align: center;
 }
 
 /* Location, Hours, Contact */
@@ -211,7 +205,7 @@ h1.title{
 	margin-bottom: 15px;
 }
 
-/* footer */
+/* Footer */
 .bottomfooter{
 	width: 100%;
 	background: #2D5427;
@@ -248,41 +242,6 @@ h1.title{
 		margin-top: 35px;
 	}
 }
-
-/* arrow */
-.arrow{
-	position: fixed;
-	bottom: 25px;
-	right: 25px;
-	width: 40px;
-	height: 40px;
-	line-height: 50px;
-	text-align: center;
-	cursor: pointer;
-	background: #3C8E37;
-	border-radius: 50%;
-}
-
-.arrow img{
-	width: 20px;
-	height: 15px;
-	z-index: 1;
-	margin-bottom: 14px;
-}
-
-.heading {
-    text-align: center;
-    color: #454343;
-    font-size: 30px;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 70px;
-    text-transform: uppercase;
-    z-index: 999;
-}
-
-
-
 
 
 /*-----Testimonial-------*/
@@ -482,37 +441,7 @@ h1.title{
   width:3%;
 }
 
-/* Media - Video Section CSS
-
-Tags included:
-
-1. #main-media-container - main container where all the elements in the section architecto
-
-2. #media-title-description - id of the container with the title and description
-
-3. #media-separator - separator between title and description
-
-4. #media-title-description p - styling applied only to the main description
-
-5. #media-video-text-container - general container keeping the title, description and video
-
-6. #media-text - id of the container with the title and description at the left of the Video
-
-7. #media-text h2 - styling of the h2 within the media-text container
-
-8. #media-text p - styling of the p within the media-text container
-
-9. #text-video-separator - separator between the text and the Video
-
-10. #media-button - the button bellow the text at the left of the video
-
-11. #media-button:hover - styling of the hover state of the button
-
-12. media-video -container with the video
-
-13. iframe-video - the iframe tag containing the YouTube video
-
-*/
+/* ------About Us Page-------*/
 
 #main-media-container {
   display: flex;
@@ -546,7 +475,6 @@ Tags included:
   align-items: center;
   width: 75%;
   padding: 3% 2% 3% 2%;
-  /* background-color: #f5f5f5; */
   border-radius: 10px;
 }
 
@@ -590,9 +518,7 @@ border: 5px solid #2D5427;
   flex-flow: column;
   height: auto;
 }
-
-
-
+/* ------About Us Close-------*/
 
 
 
@@ -682,7 +608,7 @@ border: 5px solid #2D5427;
   width:25%;
 }
 
-/* ------lets get this shit------*/
+/* ------Fruit Baskets------*/
 
 
 .diff_baskets{
@@ -751,9 +677,7 @@ hr.solid {
 }
 
 
-
-
-
+/* ------Return to Top Button-------*/
 
 #button {
   display: inline-block;
@@ -791,3 +715,5 @@ hr.solid {
   opacity: 1;
   visibility: visible;
 }
+
+/* ------BUTTON END-------*/
