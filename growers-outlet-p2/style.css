@@ -728,7 +728,7 @@ hr.solid {
   align-items: center;
   justify-content: center;
 
-  /* transition effect */
+  /* transition effect PANICC*/
   transition: opacity .2s, visibility .2s;
 }
 
