@@ -611,32 +611,6 @@ border: 5px solid #2D5427;
 /* ------Fruit Baskets------*/
 
 
-.diff_baskets{
-	display: flex;
-	margin-top: 35px;
-	justify-content: space-around;
-  margin-left: 10%;
-}
-
-.diff_basket_item{
-	width: 30%;
-  align-items: center;
-}
-
-.diff_basket_item img{
-  object-fit: cover;
-  width: 330px;
-  height: 330px;
-  outline: 5px solid #2D5427;
-}
-
-.diff_basket_item h3{
-	color: #002308;
-	margin-bottom: 15px;
-  margin-top: 20px;
-  font-family: Chivo;
-}
-
 .fruity-title{
   font-family: Chivo;
   font-size: 40px;
@@ -717,3 +691,65 @@ hr.solid {
 }
 
 /* ------BUTTON END-------*/
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+}
+
+.img__wrap h3{
+  font-family: Chivo;
+  color:#002308;
+  padding: 20px;
+}
+
+.img__img {
+  vertical-align: bottom;
+  align-content: center;
+  object-fit: cover;
+  width: 360px;
+  height: 360px;
+  outline: 5px solid #2D5427;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(139, 165, 111,.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+  text-align: center;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+
+.img__description_layer p{
+  font-family: Roboto;
+  color:#fff;
+  font-size: large;
+}
